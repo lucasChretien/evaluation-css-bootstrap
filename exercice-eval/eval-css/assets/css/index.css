@@ -1,0 +1,271 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+/* debut navbar */
+nav{
+    width: 100%;
+    height: auto;
+}
+.search{
+    background-color: rgb(170, 168, 168);
+    display: flex;
+}
+.search i{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title_site {
+    margin-left: 10px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search input{
+    margin-left: 30%;
+    margin-top: 40px;
+    background-color: rgb(170, 168, 168);
+    border: 2px solid black;
+    width: 20%;
+    height: 30px;
+}
+.search_bar{
+    margin-left: 10px;
+    margin-top: 45px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.menu{
+    background-color: #F88E55;
+}
+.categorie_menu{
+    display: flex ;
+    margin-left: 10%;
+}
+.acceuil{
+    background-color: gray;
+    width: 80px;
+    height: 40px;
+}
+.acceuil p{
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.autre_categorie{
+    display: flex;
+    height: 40px;
+}
+.autre_categorie p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/* debut header */
+header{
+    height: auto;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+}
+header img{
+    margin-left: 10%;
+}
+/* debut selecteur page  */
+.header_part_left{
+    width: 50%;
+    height: auto;
+}
+
+.pages_selecteur{
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    height: 40px;
+    width: 25%;
+}
+.pages_selecteur button{
+    background: none;
+    border: none;
+}
+.contenair_select_one{
+    background-color: rgb(223, 219, 219);
+    height: 100%;
+    width: 20%;
+}
+
+.first_select{
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.others_select{
+    color: rgb(177, 166, 166);
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 22px;
+    width: 20%;
+}
+.page_one{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+
+}
+.title_select_one{
+    color: rgb(223, 219, 219);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_select_one{
+    color: rgb(223, 219, 219);
+    font-size: 25px;
+}
+/* ddebut page d'acceuil */
+.page_acceuil{
+    width: 100%;
+    height: auto;
+    background-color: rgb(192, 191, 191);
+}
+.card_acceuil{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 5%;
+}
+.card_acceuil img{
+    height: 125px;
+    width: 250px;
+    margin-top: 50px;
+}
+.card_container{
+    width: 250px;
+    height: auto;
+    margin-left: 5%;
+}
+.title_card{
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_card{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.beandau_black{
+    background-color: rgb(63, 62, 62);
+    width: 40%;
+    height: 25px;
+}
+.beandau{
+    background-color: #0075A8;
+    width: 40%;
+    height: 25px;
+}
+/* debut seconde partie page dacceuil  */
+.industrial_succes{
+    height: auto;
+    display: flex;
+    margin-top: 80px;
+}
+.industrial{
+    display: flex;
+    margin-left: 10%;
+}
+.successes{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(63, 62, 62);
+    width: 15%;
+    height: 160px;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+.title_succsses{
+    margin-top: 12px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.successes p{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(201, 200, 200);
+    font-size: 20px;
+}
+/* debut footer  */
+footer{
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+}
+.search_footer{
+    height: auto;
+    width: 100%;
+    background-color: #F88E55;
+}
+.container_search{
+    background-color: rgb(63, 62, 62);
+    display: flex; 
+    width: 17%;
+    height: 40px;
+    margin-left: 75%;
+}
+.container_search input{
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color: rgb(63, 62, 62);
+}
+.contact_footer{
+    background-color: rgb(63, 62, 62);
+    margin-top: -2px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.title_card_footer{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.liste_container{
+    margin-top: -13px;
+}
+.card_footer{
+    padding-left: 195px;
+}
+.card_footer li{
+    color: rgb(15, 112, 177);
+}
+.card_footer img{
+    width: 20px;
+    height: 20px;
+}
+.social_network p{
+    margin-top: 2px;
+    color: rgb(15, 112, 177);
+}
+.social_network{
+    display: flex;
+    height: 35px;
+    margin-top: -10px;
+}
